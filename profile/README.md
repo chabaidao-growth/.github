@@ -26,13 +26,13 @@ npx --yes ux-helper@github:chabaidao-growth/ux-helper#v0.5.0 init
 
 ```bash
 # 装 PRD 审核 Skill
-npx --yes prd-review-kit@github:chabaidao-growth/prd-review-kit#v0.5.0 init
+npx --yes prd-review-kit@github:chabaidao-growth/prd-review-kit#v0.5.0
 ```
 
 通用语法：
 
 ```
-npx --yes <skill>@github:chabaidao-growth/<repo>#vX.Y.Z init
+npx --yes <skill>@github:chabaidao-growth/<repo>#vX.Y.Z
 ```
 
 > 💡 首次安装前需让 git 能拉 `chabaidao-growth` 的 private 仓——执行人 `gh auth login`。
